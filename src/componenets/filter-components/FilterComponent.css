@@ -1,0 +1,88 @@
+.filter_card{
+    padding:1rem;
+    margin-top:3rem;
+    background-color: #0E1A2B;
+    width: 18%;
+    height: 78vh;
+    border:1px solid gray;
+    display:flex;
+    flex-direction: column;
+}
+.btn{
+    margin-top: 1rem;
+    border: 1px solid #5692E8;
+    padding: .5rem 1.8rem;
+
+    background-color: #5692E8;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.filter_title{
+    font-size: .9rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    color: white;
+
+}
+.filter_title_game{
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    color: white;
+
+}
+.select{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.select_start{
+    color: white;
+    width: 30px;
+    background-color: #5692E8;
+    height: 2.5rem;
+}
+
+.select_end{
+    border-radius: 0 !important;
+    
+    width: 95%;
+}
+
+.input_field{
+    /* padding:1rem 3rem; */
+    width:95% ;
+    height:1.5rem;
+    margin-top: .5rem;
+    /* color: white; */
+
+}
+
+input::placeholder{
+    color: gray !important;
+    font-size: 14px;
+
+}
+
+
+
+
+@media only screen and (max-width: 1023px) {
+  
+ .filter_card{
+    width: 95%;
+ }
+
+ .filter_title_game{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+ }
+
+ .filter_title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+ }
+  }

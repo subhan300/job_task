@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-left: 2rem;
+}
+.header_title{
+
+    color: white;
+    /* position: relative; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    z-index: 100 !important;
+}
+
+
+
+
+
+.header_title_contact{
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+      flex-direction: column;
+      padding: 0;
+    }
+    .header_title_contact{
+        margin-left: 0;
+    }
+    .header_title{
+        margin-top: 2rem;
+       
+    }
+  }
